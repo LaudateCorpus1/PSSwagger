@@ -10,7 +10,7 @@
   <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
     <PackageReference Include="System.Management.Automation" Version="6.0.0-alpha17" />
     <PackageReference Include="Microsoft.CSharp" Version="4.4.0-preview2-25405-01" />
-    <PackageReference Include="Newtonsoft.JSON" Version="10.0.3" />
+    <PackageReference Include="Newtonsoft.JSON" Version="13.0.2" />
   </ItemGroup>
   <ItemGroup>
     <None Update="CloudErrorTransform.json">
